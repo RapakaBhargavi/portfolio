@@ -1,0 +1,21 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
+body { padding: 30px 10%; color: #333; }
+
+/* Navbar */
+nav { display: flex; justify-content: space-between; margin-bottom: 50px; font-size: 1.1rem; }
+.logo { font-weight: bold; }
+.nav-links a { text-decoration: none; color: #000; margin-left: 25px; }
+
+/* Main Section */
+.container { display: flex; gap: 50px; align-items: flex-start; }
+.content { flex: 1; }
+
+/* Typography Colors from Image */
+h1 { color: #d60000; font-size: 2.5rem; margin-bottom: 15px; }
+.quote { color: #c27800; font-style: italic; font-size: 1.1rem; margin-bottom: 20px; }
+.bio { line-height: 1.6; font-size: 1.05rem; }
+
+/* Image & Download Link */
+.image-box { display: flex; flex-direction: column; align-items: center; gap: 15px; }
+img { width: 280px; height: auto; object-fit: cover; }
+.download { text-decoration: none; color: #8a5a00; font-weight: bold; }
